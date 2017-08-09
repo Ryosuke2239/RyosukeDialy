@@ -13,12 +13,28 @@
  *= require_tree .
  *= require_self
  */
+
 .profile-img{
 	width: 500px;
 	height: 350px;
 	display: block;
 	margin: 0 auto; 
 }
+.main-img{
+	height: 100vh;
+	background-image: url(back-img.jpg);
+	background-size: cover;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.title{
+	text-align: center;
+}
 .top-name {
 	text-align: center;
+	background-image: url('assets/images/back-img.jpg');
 }
